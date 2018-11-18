@@ -701,6 +701,8 @@ function random_magic_colors() {
       RXB.MAGIC_COLORS[i][j] = Math.random();
     }
   }
+
+  console.log(RXB.MAGIC_COLORS);
 }
 
 // revert the fun
